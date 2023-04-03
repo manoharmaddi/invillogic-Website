@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#navbar {
+  height: 70px;
+  background: #333;
+  color: #fff;
+
+}
+
+#navbar a {
+  font-weight: bold;
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+#navbar .logo a{
+  background-color: transparent;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+#hero {
+  text-align: center;
+  padding: 3rem;
+  background-color: #f8f8f8;
+}
+
+#hero h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#hero h2 {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+/* Information Glance section */
+#information-glance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+#information-glance h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  align-items: center;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  height: 300px;
+  background-color: #784141;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.product img :focus {
+  outline: none;
+}
+.image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #000;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+.product h4 {
+  text-decoration: solid;
+  margin: 1rem 0;
+}
+
+.target {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.p {
+  width: 50%;
+  height: 250px;
+
+}
+
+.customers {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user:hover{
+  opacity: 0.7;
+}
+
+
+.logo {
+
+  margin-left: 10px;
+
+}
+
+.user {
+  display: flex;
+}
+
+.user>img {
+  border-radius: 750px;
+}
+
+.user-details {
+  display: flex;
+}
+
+/* Leadin Forms section */
+#leadin-forms {
+  padding: 3rem;
+  background-color: #f8f8f8;
+}
+
+#leadin-forms h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#leadin-forms h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#leadin-forms h5 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+form button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Core Competencies section */
+#core-competencies {
+  padding: 3rem;
+
+}
+
+#core-competencies h3 {
+  display: flex;
+  justify-content: center;
+  margin: 2px 3px 4px 10px;
+  padding-bottom: 50px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+
+}
+
+.competency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.competency img {
+  width: 50%;
+}
+
+.competency h4 {
+  margin: 1rem 0;
+}
+
+.success {
+  background-image: url('/images/blck\ bg\'.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+
+}
+
+h1 {
+  color: #fff;
+}
+
+.testimonial-container {
+  background-color: #4d4d4f;
+  color: #fff;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  max-width: 800px;
+  position: relative;
+
+
+
+}
+
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-quote-right {
+  left: 40px;
+}
+
+.fa-quote-left {
+  right: 40px;
+}
+
+
+
+
+/* CSS for the navigation menu */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* CSS for the active link in the navigation menu */
+nav a.active {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* CSS for the main content section */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* CSS for the resources list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* CSS for form */
+form {
+  width: 80%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+/* CSS for the footer section */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+
+
